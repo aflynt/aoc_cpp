@@ -1,5 +1,5 @@
 #include "game.h"
-#include "day02.h"
+#include "aoc_lib.h"
 #include <algorithm>
 
 Game::Game(std::string game_str)
