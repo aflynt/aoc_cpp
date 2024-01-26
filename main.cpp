@@ -15,7 +15,9 @@ int main() {
   //solve_day05("ex05.txt");
   //solve_day06("in06.txt");
   //solve_day07("ex07.txt");
-  solve_day08("in08.txt");
+  //solve_day08("in08.txt");
+  solve_day09("in09.txt");
+  //solve_day09("ex09.txt");
 
 
   return 0;
