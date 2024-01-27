@@ -1,4 +1,5 @@
 #include "aoc_lib.h"
+#include "gridpos.h"
 #include "days.h"
 #include <iostream>
 #include <fstream>
@@ -100,3 +101,6 @@ void solve_day09(const std::string& fname){
     std::cout << ans_0 << std::endl;
     std::cout << ans_1 << std::endl;
 }
+
+
+

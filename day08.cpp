@@ -15,7 +15,7 @@ using std::map;
 
 uint64_t glcm(vector<uint64_t> numbers){
   return std::accumulate(numbers.begin(), numbers.end(), 1ULL,
-            [](uint64_t x, uint64_t y){ return (x*y) / std::max(1ULL,std::gcd(x,y)); });
+            [](uint64_t x, uint64_t y){ return (x*y) / std::max(1UL,std::gcd(x,y)); });
 }
 
 class Node{

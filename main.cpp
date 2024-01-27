@@ -16,8 +16,11 @@ int main() {
   //solve_day06("in06.txt");
   //solve_day07("ex07.txt");
   //solve_day08("in08.txt");
-  solve_day09("in09.txt");
+  //solve_day09("in09.txt");
   //solve_day09("ex09.txt");
+
+  using D10::solve_day;
+  solve_day("in10.txt");
 
 
   return 0;

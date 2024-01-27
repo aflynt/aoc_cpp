@@ -16,7 +16,7 @@ struct race {
 
   uint64_t cnt_wins() const {
     uint64_t n = 0;
-    auto dtws = get_list_range(1ull, m_dt);
+    auto dtws = get_list_range(static_cast<uint64_t>(1), m_dt);
 
     for(auto& dtw: dtws){
         auto dx = dtw*m_dt-std::pow(dtw, 2);
