@@ -16,6 +16,7 @@ add_executable(aoc main.cpp
     day08.cpp
     day09.cpp
     day10.cpp
+    day12.cpp
     game.cpp
     gridpos.cpp
     card.cpp
