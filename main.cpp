@@ -3,7 +3,7 @@
 
 int main() {
 
-  D12::solve_day("in12.txt");
+  D13::solve_day("in13.txt");
 
 
   return 0;
